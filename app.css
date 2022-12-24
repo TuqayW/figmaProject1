@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    list-style: none;
+}
+.page1{
+    width: 1864px;
+    height: 931px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0D0D2B;
+}
+.page2{
+    background: #0D0D2B;
+    width: 1864px;
+    height: 931px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    width: 1400px;
+    height: 665px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.numero{
+    width: 1400px;
+}
+.hisse{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-content: center;
+}
+.right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 1402px;
+    height: 52px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    width: 1402px;
+    height: 700px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.btns{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 500px;
+    
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.login h2{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    cursor: pointer;
+}
+.btns h2{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    cursor: pointer;
+}  
+.all-btns{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 9000px;
+}
+.register{
+    margin-left: 48px;
+    padding: 14px 32px;
+    width: 130px;
+    height: 52px;
+    background: #3671E9;
+    border-radius: 32px;
+    transition: .4s;
+}
+.register:hover{
+    margin-left: 48px;
+    padding: 14px 32px;
+    width: 130px;
+    height: 52px;
+    background: #1e3a72;
+    border-radius: 32px;
+}
+
+.register h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.tired{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.free{
+    width: 202px;
+    height: 64px;
+    background: #3671E9;
+    border-radius: 32px;
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.free h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
